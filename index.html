@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Number Lock Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Number Lock Game</h1>
+      <p>Enter the correct combination to unlock the box!</p>
+      <div class="lock-box">
+        <div class="lock-digits">
+          <input type="text" id="digit1" maxlength="1" onkeyup="moveToNext(this, 'digit2')" />
+          <input type="text" id="digit2" maxlength="1" onkeyup="moveToNext(this, 'digit3')" />
+          <input type="text" id="digit3" maxlength="1" onkeyup="moveToNext(this, 'digit4')" />
+          <input type="text" id="digit4" maxlength="1" onkeyup="checkCombination()" />
+        </div>
+        <div id="result"></div>
+        <div id="clue"></div>
+        <button onclick="restartGame()">Restart</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

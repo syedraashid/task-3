@@ -1,0 +1,39 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  .lock-box {
+    display: inline-block;
+    border: 2px solid rgb(250, 249, 249);
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .lock-digits input {
+    width: 40px;
+    height: 40px;
+    /* color: aliceblue; */
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  
+  #result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  #clue {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  html{
+    background-image: url(access-close-up-code-coded.jpg);
+  }
+  
